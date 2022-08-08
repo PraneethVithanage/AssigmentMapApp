@@ -24,7 +24,7 @@ struct HomeView: View {
                     NavigationView {
                         Text("Searching \(searchText)")
                             .searchable(text: $searchText)
-                            .navigationTitle("Emploer Locations")
+                            .navigationTitle("Employer Locations")
                     }.frame(height: 180.0)
                     
                     if viewModel.userLists != nil && viewModel.postDetail != nil {
